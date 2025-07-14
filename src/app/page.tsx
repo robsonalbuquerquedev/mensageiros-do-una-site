@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -26,9 +27,11 @@ export default function Home() {
         transition={{ delay: 0.5, duration: 1 }}
         className="mt-8 w-full max-w-5xl px-4"
       >
-        <img
+        <Image
           src="/background.jpg"
           alt="Clube Mensageiros do Una"
+          width={1200}
+          height={700}
           className="w-full object-contain rounded-lg shadow-lg"
         />
       </motion.div>
@@ -41,8 +44,8 @@ export default function Home() {
         className="mt-8 px-6 text-center text-sm md:text-base max-w-md"
       >
         <p className="text-[#d5d2d1] italic">
-          "Ninguém o despreze por você ser jovem, mas seja um exemplo para os
-          fiéis..." <br />
+          &quot;Ninguém o despreze por você ser jovem, mas seja um exemplo para os
+          fiéis...&quot; <br />
           <span className="text-white font-semibold">– 1 Timóteo 4:12</span>
         </p>
 
