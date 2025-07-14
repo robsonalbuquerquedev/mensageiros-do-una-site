@@ -40,9 +40,9 @@ O projeto foi criado com foco em design responsivo, animações modernas e naveg
 
 ## 🖼️ Demonstração
 
-> Em breve: link do site hospedado (via Vercel)
+🔗 Acesse agora: [mensageiros-do-una-site.vercel.app](https://mensageiros-do-una-site.vercel.app/)
 
-![Preview do site](https://github.com/robsonalbuquerquedev/mensageiros-do-una-site/assets/exemplo.jpg)
+<img src="public/preview.png" alt="Preview do site Mensageiros do Una" />
 
 ---
 
