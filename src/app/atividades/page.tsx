@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 
 const fotos = [
     {
@@ -55,8 +56,8 @@ export default function Atividades() {
                 <button
                     onClick={() => setAbaAtiva("fotos")}
                     className={`cursor-pointer px-4 py-2 font-semibold rounded-lg transition-colors ${abaAtiva === "fotos"
-                            ? "bg-[#da650c] text-white"
-                            : "bg-[#d5d2d1] text-[#02203b]"
+                        ? "bg-[#da650c] text-white"
+                        : "bg-[#d5d2d1] text-[#02203b]"
                         }`}
                 >
                     Fotos
@@ -64,8 +65,8 @@ export default function Atividades() {
                 <button
                     onClick={() => setAbaAtiva("videos")}
                     className={`cursor-pointer px-4 py-2 font-semibold rounded-lg transition-colors ${abaAtiva === "videos"
-                            ? "bg-[#da650c] text-white"
-                            : "bg-[#d5d2d1] text-[#02203b]"
+                        ? "bg-[#da650c] text-white"
+                        : "bg-[#d5d2d1] text-[#02203b]"
                         }`}
                 >
                     Vídeos
@@ -80,9 +81,11 @@ export default function Atividades() {
                             key={index}
                             className="bg-white rounded-lg overflow-hidden shadow-md"
                         >
-                            <img
+                            <Image
                                 src={foto.src}
                                 alt={foto.titulo}
+                                width={500}
+                                height={240}
                                 className="w-full h-60 object-contain bg-[#f1f1f1]"
                             />
                             <div className="p-4">
