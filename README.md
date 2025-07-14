@@ -1,37 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
+  <img src="public/logo.png" alt="Logo Mensageiros do Una" width="120" />
 
-## Getting Started
+  # Mensageiros do Una 🌟
 
-First, run the development server:
+  📍 Palmares–PE | 9ª Região | APE  
+  🏕 1 Timóteo 4:12  
+  💒 IASD – A mensagem do advento a todos em minha geração.
+</div>
+
+---
+
+## ✨ Visão Geral
+
+Este é o site oficial do **Clube de Desbravadores Mensageiros do Una**, desenvolvido com **Next.js 14 (App Router)**, com o objetivo de apresentar as atividades, fotos, vídeos e história do clube.
+
+O projeto foi criado com foco em design responsivo, animações modernas e navegação intuitiva, sendo facilmente acessível em celulares, tablets e desktops.
+
+---
+
+## 🚀 Tecnologias
+
+- [Next.js 14](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide Icons](https://lucide.dev/)
+
+---
+
+## 📸 Funcionalidades
+
+✅ Página Inicial com mensagem animada e fundo personalizado  
+✅ Menu responsivo com botão hamburguer e efeito click-outside  
+✅ Galeria de **fotos e vídeos** em abas separadas  
+✅ Página "Sobre Nós" com informações do clube e **efeito scroll reveal**  
+✅ Cores oficiais: `#02203b`, `#da650c`, `#d5d2d1`, `#fff`
+
+---
+
+## 🖼️ Demonstração
+
+> Em breve: link do site hospedado (via Vercel)
+
+![Preview do site](https://github.com/robsonalbuquerquedev/mensageiros-do-una-site/assets/exemplo.jpg)
+
+---
+
+## 🛠️ Como rodar localmente
 
 ```bash
+# Clone o repositório
+git clone https://github.com/robsonalbuquerquedev/mensageiros-do-una-site.git
+
+# Acesse a pasta
+cd mensageiros-do-una-site
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O site ficará disponível em http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📅 Informações do Clube
 
-## Learn More
+- Classificação: ⭐⭐⭐ Três Estrelas
+- Fundação: 30 de março de 2002
+- Endereço: Rua Doutor Leopoldo Lins, 191 – Palmares – PE
+- Reuniões: Domingos às 09:30
 
-To learn more about Next.js, take a look at the following resources:
+## 👨‍💻 Desenvolvedor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feito com carinho por Robson Albuquerque
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Licença
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# mensageiros-do-una-site
+Este projeto está licenciado sob a [MIT License](LICENSE).
